@@ -1,5 +1,10 @@
-@main def hello(): Unit =
-  println("Hello world!")
-  println(msg)
+import days._
 
-def msg = "I was compiled by Scala 3. :)"
+@main def main(dayNumber: Int): Unit = {
+  dayNumber match {
+    case 1 => Day1.solve()
+    case 2 => Day2.solve()
+    case 3 => Day3.solve()
+    case _ => println(s"Day $dayNumber is not yet implemented.")
+  }
+}

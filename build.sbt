@@ -5,8 +5,7 @@ lazy val root = project
   .settings(
     name := "AOC2024",
     version := "0.1.0-SNAPSHOT",
-
     scalaVersion := scala3Version,
-
+    fork := true,
     libraryDependencies += "org.scalameta" %% "munit" % "1.0.0" % Test
   )

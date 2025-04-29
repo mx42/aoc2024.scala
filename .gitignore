@@ -32,3 +32,5 @@ metals.sbt
 /.worksheet/
 
 .direnv
+
+src/main/resources
