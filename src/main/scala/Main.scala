@@ -6,6 +6,7 @@ import days._
     case 2 => Day2.solve()
     case 3 => Day3.solve()
     case 4 => Day4.solve()
+    case 5 => Day5.solve()
     case _ => println(s"Day $dayNumber is not yet implemented.")
   }
 }
